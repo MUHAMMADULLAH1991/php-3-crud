@@ -1,0 +1,39 @@
+
+
+new mysqli('hostname', 'username', 'password', 'databasename);
+
+hostname: localhost
+username: root
+password: 
+databasename:school_mgt_system_20
+
+
+
+READ=>
+
+SELECT * FROM students;
+
+mysqli_query(connection, query)
+
+
+initialize = 0
+
+while(condition){
+    //Statement..
+    //increment...
+}
+
+$row = { id: 1, name:'Rahim', roll:1 }
+
+
+
+$row['name']
+
+
+INSERT INTO students () VALUES()
+
+SELECT * FROM students WHERE id=5;
+
+UPDATE students SET name='Rahim', roll=2, class='Nine', address='Uttara', blood='A+', phone='9348758', email='sajdh@gmail.com' WHERE id=5
+
+DELETE FROM students WHERE id=5;
